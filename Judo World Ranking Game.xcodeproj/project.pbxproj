@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191BA5E31C5DFE83009DD55C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191BA5E21C5DFE83009DD55C /* AppDelegate.swift */; };
+		191BA5E51C5DFE83009DD55C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191BA5E41C5DFE83009DD55C /* ViewController.swift */; };
+		191BA5E81C5DFE83009DD55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191BA5E61C5DFE83009DD55C /* Main.storyboard */; };
+		191BA5EA1C5DFE83009DD55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191BA5E91C5DFE83009DD55C /* Assets.xcassets */; };
+		191BA5ED1C5DFE83009DD55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191BA5EB1C5DFE83009DD55C /* LaunchScreen.storyboard */; };
+		191BA5F51C5DFF8B009DD55C /* wrmen.csv in Resources */ = {isa = PBXBuildFile; fileRef = 191BA5F41C5DFF8B009DD55C /* wrmen.csv */; };
+		191BA5F81C5E0090009DD55C /* WRMen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191BA5F71C5E0090009DD55C /* WRMen.swift */; };
+		191BA5FB1C5E0A54009DD55C /* JudokaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191BA5FA1C5E0A54009DD55C /* JudokaCell.swift */; };
+		191BA5FD1C5E26E4009DD55C /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191BA5FC1C5E26E4009DD55C /* csv.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		191BA5DF1C5DFE83009DD55C /* Judo World Ranking Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Judo World Ranking Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		191BA5E21C5DFE83009DD55C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		191BA5E41C5DFE83009DD55C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		191BA5E71C5DFE83009DD55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		191BA5E91C5DFE83009DD55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		191BA5EC1C5DFE83009DD55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		191BA5EE1C5DFE83009DD55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191BA5F41C5DFF8B009DD55C /* wrmen.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wrmen.csv; sourceTree = "<group>"; };
+		191BA5F71C5E0090009DD55C /* WRMen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRMen.swift; sourceTree = "<group>"; };
+		191BA5FA1C5E0A54009DD55C /* JudokaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JudokaCell.swift; sourceTree = "<group>"; };
+		191BA5FC1C5E26E4009DD55C /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191BA5DC1C5DFE83009DD55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191BA5D61C5DFE83009DD55C = {
+			isa = PBXGroup;
+			children = (
+				191BA5E11C5DFE83009DD55C /* Judo World Ranking Game */,
+				191BA5E01C5DFE83009DD55C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		191BA5E01C5DFE83009DD55C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				191BA5DF1C5DFE83009DD55C /* Judo World Ranking Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		191BA5E11C5DFE83009DD55C /* Judo World Ranking Game */ = {
+			isa = PBXGroup;
+			children = (
+				191BA5F61C5E0037009DD55C /* Model */,
+				191BA5F91C5E0A0C009DD55C /* View */,
+				191BA5FF1C5E2711009DD55C /* Controller */,
+				191BA5FE1C5E2701009DD55C /* Util */,
+				191BA6001C5E2727009DD55C /* Resorces */,
+				191BA5E21C5DFE83009DD55C /* AppDelegate.swift */,
+				191BA5E61C5DFE83009DD55C /* Main.storyboard */,
+				191BA5E91C5DFE83009DD55C /* Assets.xcassets */,
+				191BA5EB1C5DFE83009DD55C /* LaunchScreen.storyboard */,
+				191BA5EE1C5DFE83009DD55C /* Info.plist */,
+			);
+			path = "Judo World Ranking Game";
+			sourceTree = "<group>";
+		};
+		191BA5F61C5E0037009DD55C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				191BA5F71C5E0090009DD55C /* WRMen.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		191BA5F91C5E0A0C009DD55C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				191BA5FA1C5E0A54009DD55C /* JudokaCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		191BA5FE1C5E2701009DD55C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				191BA5FC1C5E26E4009DD55C /* csv.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		191BA5FF1C5E2711009DD55C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				191BA5E41C5DFE83009DD55C /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		191BA6001C5E2727009DD55C /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				191BA5F41C5DFF8B009DD55C /* wrmen.csv */,
+			);
+			name = Resorces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		191BA5DE1C5DFE83009DD55C /* Judo World Ranking Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191BA5F11C5DFE83009DD55C /* Build configuration list for PBXNativeTarget "Judo World Ranking Game" */;
+			buildPhases = (
+				191BA5DB1C5DFE83009DD55C /* Sources */,
+				191BA5DC1C5DFE83009DD55C /* Frameworks */,
+				191BA5DD1C5DFE83009DD55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Judo World Ranking Game";
+			productName = "Judo World Ranking Game";
+			productReference = 191BA5DF1C5DFE83009DD55C /* Judo World Ranking Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		191BA5D71C5DFE83009DD55C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Boris Rudas";
+				TargetAttributes = {
+					191BA5DE1C5DFE83009DD55C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 191BA5DA1C5DFE83009DD55C /* Build configuration list for PBXProject "Judo World Ranking Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 191BA5D61C5DFE83009DD55C;
+			productRefGroup = 191BA5E01C5DFE83009DD55C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				191BA5DE1C5DFE83009DD55C /* Judo World Ranking Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		191BA5DD1C5DFE83009DD55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191BA5F51C5DFF8B009DD55C /* wrmen.csv in Resources */,
+				191BA5ED1C5DFE83009DD55C /* LaunchScreen.storyboard in Resources */,
+				191BA5EA1C5DFE83009DD55C /* Assets.xcassets in Resources */,
+				191BA5E81C5DFE83009DD55C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		191BA5DB1C5DFE83009DD55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191BA5E51C5DFE83009DD55C /* ViewController.swift in Sources */,
+				191BA5FB1C5E0A54009DD55C /* JudokaCell.swift in Sources */,
+				191BA5E31C5DFE83009DD55C /* AppDelegate.swift in Sources */,
+				191BA5F81C5E0090009DD55C /* WRMen.swift in Sources */,
+				191BA5FD1C5E26E4009DD55C /* csv.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		191BA5E61C5DFE83009DD55C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191BA5E71C5DFE83009DD55C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		191BA5EB1C5DFE83009DD55C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191BA5EC1C5DFE83009DD55C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		191BA5EF1C5DFE83009DD55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		191BA5F01C5DFE83009DD55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		191BA5F21C5DFE83009DD55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Judo World Ranking Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobek00.Judo-World-Ranking-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		191BA5F31C5DFE83009DD55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Judo World Ranking Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobek00.Judo-World-Ranking-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		191BA5DA1C5DFE83009DD55C /* Build configuration list for PBXProject "Judo World Ranking Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191BA5EF1C5DFE83009DD55C /* Debug */,
+				191BA5F01C5DFE83009DD55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191BA5F11C5DFE83009DD55C /* Build configuration list for PBXNativeTarget "Judo World Ranking Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191BA5F21C5DFE83009DD55C /* Debug */,
+				191BA5F31C5DFE83009DD55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 191BA5D71C5DFE83009DD55C /* Project object */;
+}
